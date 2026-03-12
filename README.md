@@ -15,7 +15,7 @@ lab5/
 ├── README.md                  # This file
 ├── report.md                  # Answers to all lab questions with benchmarks
 ├── Makefile                   # Build all filters at once
-├── kernel_on_image.pdf                 # how the blocs of the image are computed with the kernel
+├── kernel_on_image.pdf        # how the blocs of the image are computed with the kernel
 │
 ├── src/
 │   ├── common/                # Shared utilities
