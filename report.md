@@ -30,7 +30,9 @@ This ensures all pixels are covered while utilizing 256 threads per block.
 
 For a block of 16×16 threads with a kernel of radius `r`, the shared memory size is:
 
-$$(\text{BLOCK\_SIZE\_X} + 2r) \times (\text{BLOCK\_SIZE\_Y} + 2r) \times 3 \text{ bytes}$$
+```
+(BLOCK_SIZE_X + 2*r) × (BLOCK_SIZE_Y + 2*r) × 3 bytes
+```
 
 | Kernel | Radius | Shared memory tile | Size per block |
 |--------|--------|--------------------|----------------|
